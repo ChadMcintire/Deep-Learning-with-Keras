@@ -1,10 +1,13 @@
-kernels - 
+kernels -
 https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/
 
-filters - 
+
+filters -
 https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/
+
 
 strides-
+
 
 activation functions-
 https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/
@@ -12,12 +15,38 @@ https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-act
 --importance of activation functions
 https://towardsdatascience.com/activation-functions-and-its-types-which-is-better-a9a5310cc8f
 
+
 convolutions-
 https://www.pyimagesearch.com/2016/07/25/convolutions-with-opencv-and-python/
 https://missinglink.ai/guides/keras/keras-conv2d-working-cnn-2d-convolutions-keras/
 
+--peer reviewed articles
+https://arxiv.org/pdf/1603.07285.pdf
+
 --examples-to-look-at
 https://blog.xrds.acm.org/2016/06/convolutional-neural-networks-cnns-illustrated-explanation/
+
+
+dialated convolutions-
+
+https://stackoverflow.com/questions/41178576/whats-the-use-of-dilated-convolutions
+
+--peer reviewed articles
+https://arxiv.org/pdf/1511.07122.pdf
+https://arxiv.org/pdf/1609.03499.pdf
+
+--take aways
+Pooling and Strided Convolutions are similar concepts but both reduce the resolution.
+
+
+receptive fields-
+
+https://www.quora.com/What-is-a-receptive-field-in-a-convolutional-neural-network
+
+--take aways
+
+equivalent to filter size
+
 
 max-pooling-
 https://computersciencewiki.org/index.php/Max-pooling_/_Pooling
@@ -26,6 +55,7 @@ https://computersciencewiki.org/index.php/Max-pooling_/_Pooling
 This is done to in part to help over-fitting by providing an abstracted form of the representation. As well, it reduces the computational cost by reducing the number of parameters to learn and provides basic translation invariance to the internal representation.
 
 Max pooling is done by applying a max filter to (usually) non-overlapping subregions of the initial representation.
+
 
 channels-first/channels-last
 https://machinelearningmastery.com/a-gentle-introduction-to-channels-first-and-channels-last-image-formats-for-deep-learning/
@@ -39,7 +69,16 @@ https://en.wikipedia.org/wiki/One-hot
 https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
 https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/
 
+--take away
 if the ordering tells something about a categorical variable it may help to use interger incoding
+
+
+batch size-
+
+https://forums.fast.ai/t/please-explain-why-batch-size-matters/9045
+
+--take aways
+increase by powers of two in order to include enough of the data too give information, but so much that you overfit
 
 
 exercises that might be helpful-
@@ -51,3 +90,5 @@ https://towardsdatascience.com/
 
 deep learning books-
 http://www.deeplearningbook.org/
+
+
