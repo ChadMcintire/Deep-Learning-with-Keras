@@ -6,14 +6,35 @@ https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/
 
 strides-
 
+activation functions-
+https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/
+
+--importance of activation functions
+https://towardsdatascience.com/activation-functions-and-its-types-which-is-better-a9a5310cc8f
+
 convolutions-
 https://www.pyimagesearch.com/2016/07/25/convolutions-with-opencv-and-python/
 https://missinglink.ai/guides/keras/keras-conv2d-working-cnn-2d-convolutions-keras/
 
+--examples-to-look-at
+https://blog.xrds.acm.org/2016/06/convolutional-neural-networks-cnns-illustrated-explanation/
+
 max-pooling-
 https://computersciencewiki.org/index.php/Max-pooling_/_Pooling
 
-one-hot
+--take aways
+This is done to in part to help over-fitting by providing an abstracted form of the representation. As well, it reduces the computational cost by reducing the number of parameters to learn and provides basic translation invariance to the internal representation.
+
+Max pooling is done by applying a max filter to (usually) non-overlapping subregions of the initial representation.
+
+channels-first/channels-last
+https://machinelearningmastery.com/a-gentle-introduction-to-channels-first-and-channels-last-image-formats-for-deep-learning/
+
+--take aways
+each deep learning framework has its own placement on where they want channel, look at how that one need. Keras is last by default
+
+
+one-hot-
 https://en.wikipedia.org/wiki/One-hot
 https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
 https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/
@@ -24,9 +45,9 @@ if the ordering tells something about a categorical variable it may help to use 
 exercises that might be helpful-
 https://machinelearningmastery.com/multi-class-classification-tutorial-keras-deep-learning-library/
 
-
 decent starting websites-
 https://machinelearningmastery.com/
+https://towardsdatascience.com/
 
-exercises that might be helpful-
-https://machinelearningmastery.com/multi-class-classification-tutorial-keras-deep-learning-library/
+deep learning books-
+http://www.deeplearningbook.org/
