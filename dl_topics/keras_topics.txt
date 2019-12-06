@@ -1,3 +1,29 @@
+comparison of ddep learning frameworks
+
+https://skymind.ai/wiki/comparison-frameworks-dl4j-tensorflow-pytorch
+
+
+--tensorflow vs. caffe
+https://www.educba.com/tensorflow-vs-caffe/
+
+
+tensors-
+
+https://www.easy-tensorflow.com/tf-tutorials/basics/graph-and-session
+
+--take aways
+
+a Tensor is a multi-dimensional array (0-D tensor: scalar, 1-D tensor: vector, 2-D tensor: matrix, and so on).
+
+
+
+sessions-
+
+https://danijar.com/what-is-a-tensorflow-session/
+
+
+
+
 kernels -
 https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/
 
@@ -16,7 +42,13 @@ https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-act
 https://towardsdatascience.com/activation-functions-and-its-types-which-is-better-a9a5310cc8f
 
 
-convolutions-
+convolutions 1d-
+
+--examples
+https://blog.goodaudience.com/introduction-to-1d-convolutional-neural-networks-in-keras-for-time-sequences-3a7ff801a2cf
+
+
+convolutions 2d-
 https://www.pyimagesearch.com/2016/07/25/convolutions-with-opencv-and-python/
 https://missinglink.ai/guides/keras/keras-conv2d-working-cnn-2d-convolutions-keras/
 
@@ -42,6 +74,8 @@ Pooling and Strided Convolutions are similar concepts but both reduce the resolu
 receptive fields-
 
 https://www.quora.com/What-is-a-receptive-field-in-a-convolutional-neural-network
+https://medium.com/mlreview/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks-e0f514068807
+https://distill.pub/2019/computing-receptive-fields/
 
 --take aways
 
