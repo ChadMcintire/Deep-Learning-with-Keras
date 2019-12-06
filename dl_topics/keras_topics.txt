@@ -1,0 +1,32 @@
+kernels - 
+https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/
+
+filters - 
+https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/
+
+strides-
+
+convolutions-
+https://www.pyimagesearch.com/2016/07/25/convolutions-with-opencv-and-python/
+https://missinglink.ai/guides/keras/keras-conv2d-working-cnn-2d-convolutions-keras/
+
+max-pooling-
+https://computersciencewiki.org/index.php/Max-pooling_/_Pooling
+
+one-hot
+https://en.wikipedia.org/wiki/One-hot
+https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
+https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/
+
+if the ordering tells something about a categorical variable it may help to use interger incoding
+
+
+exercises that might be helpful-
+https://machinelearningmastery.com/multi-class-classification-tutorial-keras-deep-learning-library/
+
+
+decent starting websites-
+https://machinelearningmastery.com/
+
+exercises that might be helpful-
+https://machinelearningmastery.com/multi-class-classification-tutorial-keras-deep-learning-library/
