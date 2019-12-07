@@ -1,3 +1,8 @@
+arial object detection-
+
+https://towardsdatascience.com/object-detection-on-aerial-imagery-using-retinanet-626130ba2203
+
+
 comparison of ddep learning frameworks
 
 https://skymind.ai/wiki/comparison-frameworks-dl4j-tensorflow-pytorch
@@ -15,6 +20,13 @@ https://www.easy-tensorflow.com/tf-tutorials/basics/graph-and-session
 
 a Tensor is a multi-dimensional array (0-D tensor: scalar, 1-D tensor: vector, 2-D tensor: matrix, and so on).
 
+variables-
+
+https://www.easy-tensorflow.com/tf-tutorials/basics/graph-and-session?view=article&id=73:tensorflow-basics
+
+--take aways
+
+variables must be initialized
 
 
 sessions-
@@ -29,6 +41,20 @@ https://danijar.com/what-is-a-tensorflow-session/
 --take aways
 
 Therefore a TensorFlow Graph is something like a function definition in Python. It WILL NOT do any computation for you (just like a function definition will not have any execution result). It ONLY defines computation operations.
+
+placeholder-
+
+https://stackoverflow.com/questions/50497724/tensorflow-when-should-i-use-or-not-use-feed-dict
+
+--def
+
+Placeholders are nodes whose value is fed in at execution time. If you have inputs to your network that depend on some external data and you don't want your graph to depend on any real value, placeholders are the datatype you need. In fact, you can build the graph without needing the data.
+
+--take aways
+
+if you have a placeholder you will need to pass a dictionary with feed_dict=
+
+
 
 
 kernels -
